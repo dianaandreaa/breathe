@@ -191,7 +191,7 @@ font-size: 2.5rem;
 }
 
 button {
-
+user-select: none;
 width: 159px;
 height: 60px;
 border-radius: 25px;
@@ -466,7 +466,7 @@ font-family: marvin-round, sans-serif;
 .angryflower, .angrytic {
     background-color: #D1D7F0;
     width: 100vw;
-    min-height: 150vh;
+    height: 130vh;
     position: absolute;
     top: 0;
 }
