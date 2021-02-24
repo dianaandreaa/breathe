@@ -40,6 +40,21 @@ function goBack2() {
     document.querySelector(".content").classList.remove("hidden");
 }
 
+function openComic() {
+    console.log("openComic");
+    document.querySelector(".happyscreen").classList.add("hidden");
+    document.querySelector(".happycomic").classList.remove("hidden");
+    document.querySelector(".gobackhappy4").addEventListener("click", goBackhappy4);
+}    
+
+function goBackhappy4() {
+    console.log("goBackhappy4");
+    document.querySelector(".happycomic").classList.add("hidden");
+    document.querySelector(".happychoice").classList.remove("hidden");
+    }
+
+
+    
 function openGame() {
     console.log("openGame");
     document.querySelector(".happychoice").classList.add("hidden");
@@ -164,6 +179,19 @@ console.log("goBackangry2");
 document.querySelector(".angrychoice").classList.add("hidden");
 document.querySelector(".content").classList.remove("hidden");
 }
+
+function openComicangry() {
+    console.log("openComicangry");
+    document.querySelector(".angryscreen").classList.add("hidden");
+    document.querySelector(".angrycomic").classList.remove("hidden");
+    document.querySelector(".gobackangry4").addEventListener("click", goBackangry4);
+}    
+
+function goBackangry4() {
+    console.log("goBackangry4");
+    document.querySelector(".angrycomic").classList.add("hidden");
+    document.querySelector(".angrychoice").classList.remove("hidden");
+    }
 
 function openGameangry() {
     console.log("openGameangry");
