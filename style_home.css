@@ -83,31 +83,31 @@ margin-right: 3vw;
 .happy {
     width: 25vw;
 height: 60vh;
-    background-image: url(img/suo.png);
+    background-image: url(img/dog_okay.svg);
     background-repeat: no-repeat;
-    background-size: 75%;
+    background-size: 90%;
  
 }
 
 .sad {
-    background-image: url(img/kate.png);
+    background-image: url(img/sad_cat.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 105%;
     width: 25vw;
 height: 60vh;
 }
 
 .angry {
-    background-image: url(img/bear.png);
+    background-image: url(img/bear_angry.svg);
     background-repeat: no-repeat;
-background-size: 80%;
+    background-size: 85%;
 width: 25vw;
 height: 60vh;
 }
 
 .emotion {
     position: absolute;
-    bottom: 0;
+    bottom: 5vh;
     margin-left: 5%;
 }
 
@@ -181,7 +181,7 @@ font-size: 2.5rem;
 }
 
 .happycharacter {
-    background-image: url(img/suo.png);
+    background-image: url(img/dog_okay.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -258,7 +258,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .happycharacter2 {
-    background-image: url(img/suo_play.png);
+    background-image: url(img/dog_playful.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -294,7 +294,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .happycharacter3 {
-    background-image: url(img/suo_game.png);
+    background-image: url(img/dog_happy.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -308,7 +308,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .sadcharacter {
-    background-image: url(img/kate.png);
+    background-image: url(img/sad_cat.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -318,7 +318,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .sadcharacter2 {
-    background-image: url(img/cat_lesssad.png);
+    background-image: url(img/cat_okay.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -328,7 +328,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .sadcharacter3 {
-    background-image: url(img/cat_happy.png);
+    background-image: url(img/cat_tongue.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -350,7 +350,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .angrycharacter {
-    background-image: url(img/bear.png);
+    background-image: url(img/bear_angry.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -368,7 +368,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .angrycharacter2 {
-    background-image: url(img/beartongue.png);
+    background-image: url(img/bear_okay.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
@@ -386,7 +386,7 @@ font-family: marvin-round, sans-serif;
 }
 
 .angrycharacter3 {
-    background-image: url(img/happerbear.png);
+    background-image: url(img/bear_tongue.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 45vh;
