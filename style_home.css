@@ -1,0 +1,492 @@
+@import url("https://use.typekit.net/xru3xio.css");
+body {
+    background-color: #A4C8EE;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: marvin-round, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+button {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.ham {
+    display: block;
+    position: absolute;
+    z-index: 10000000;
+    top: 20px;
+    right: 20px;
+    width: 7vw;
+    height: 7vw;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(img/ham.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.navbar {
+    z-index: 1000000;
+    background-color: #A4C8EE;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+}
+
+.navbar ul{
+    margin-top: 20vw;
+    font-size: 4rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.showClose {
+    background-image: url(img/ham_closed.png);
+}
+
+.showNav {
+    transform: translateY(0);
+}
+
+.navigation {
+    z-index: 2;
+    text-align-last: center;
+    display: inline-flex;
+}
+
+.character {
+   background-color: #A9CDF1;
+   width: 25vw;
+height: 25vw;
+border-radius: 50%;
+border: 1px solid rgba(234, 235, 239, 0.17);
+display: inline-flex;
+margin-top: 10vh;
+cursor: pointer;
+margin-right: 3vw;
+}
+
+.happy {
+    width: 25vw;
+height: 60vh;
+    background-image: url(img/suo.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+ 
+}
+
+.sad {
+    background-image: url(img/kate.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 25vw;
+height: 60vh;
+}
+
+.angry {
+    background-image: url(img/bear.png);
+    background-repeat: no-repeat;
+background-size: 80%;
+width: 25vw;
+height: 60vh;
+}
+
+.emotion {
+    position: absolute;
+    bottom: 0;
+    margin-left: 5%;
+}
+
+
+.logo {  color: white;
+    font-size: 7rem;
+    z-index: 99999999999999;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.circle1 {
+    z-index: -3;
+    background-color: white;
+    opacity: 0.1;
+   width: 45vw;
+height: 45vw;
+border-radius: 50%;
+display: inline-block; 
+white-space: nowrap;
+left: -100px;
+bottom: 440px;
+position: absolute;
+}
+
+.circle2 {
+    z-index: -2;
+    background-color: white;
+    opacity: 0.1;
+   width: 30vw;
+height: 30vw;
+border-radius: 50%;
+display: inline-block; 
+white-space: nowrap;
+left: -100px;
+bottom: 500px;
+position: absolute;
+}
+
+.circle3 {
+    z-index: -1;
+    background-color: white;
+    opacity: 0.1;
+   width: 15vw;
+height: 15vw;
+border-radius: 50%;
+display: inline-block; 
+white-space: nowrap;
+left: -30px;
+bottom: 470px;
+position: absolute;
+}
+
+.happyscreen {
+    background-color: #FD9659;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.speech {
+    width: 400px;
+position: absolute;
+top: 200px;
+left: 400px;
+font-size: 2.5rem;
+}
+
+.happycharacter {
+    background-image: url(img/suo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+button {
+
+width: 159px;
+height: 60px;
+border-radius: 25px;
+border: 0.1px solid rgba(234, 235, 239, 0.79);
+font-family: marvin-round, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    text-align: center; 
+}
+
+.orange {
+    background-color: #FD9659;
+}
+
+.yes, .yessad, .yesangry {
+    position: absolute;
+    top: 450px;
+    font-size: 2.5rem;
+}
+
+.goback, .gobackangry, .gobacksad {
+    position: absolute;
+    top: 550px;
+    font-size: 1.5rem;
+}
+
+.goback2, .gobackangry2, .gobacksad2  {
+    position: absolute;
+    top: 650px;
+    font-size: 1.5rem;
+}
+
+.goback3, .gobackangry3, .gobacksad3  {
+    position: absolute;
+    top: 650px;
+    font-size: 1.5rem;
+}
+
+.happychoice {
+    background-color: #FD9659;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.game {
+    position: absolute;
+    top: 550px;
+}
+
+.read {
+    position: absolute;
+    top: 450px;
+
+}
+
+.comic {
+    position: absolute;
+    top: 350px;
+}
+
+.happycharacter2 {
+    background-image: url(img/suo_play.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.happygame {
+    background-color: #FD9659;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.game1 {
+    position: absolute;
+    top: 350px;
+    font-size: 1.5rem;
+}
+
+.game2 {
+    position: absolute;
+    top: 450px;
+    font-size: 1.5rem;
+}
+
+.game3 {
+    position: absolute;
+    top: 550px;
+    font-size: 1.5rem;
+}
+
+.happycharacter3 {
+    background-image: url(img/suo_game.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.blue {
+    background-color: #A4C8EE;
+}
+
+.sadcharacter {
+    background-image: url(img/kate.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.sadcharacter2 {
+    background-image: url(img/cat_lesssad.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.sadcharacter3 {
+    background-image: url(img/cat_happy.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.lavender {
+    background-color: #D1D7F0;
+}
+
+.angryscreen {
+    background-color: #D1D7F0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.angrycharacter {
+    background-image: url(img/bear.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.angrychoice {
+    background-color:  #D1D7F0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.angrycharacter2 {
+    background-image: url(img/beartongue.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.angrygame {
+    background-color: #D1D7F0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.angrycharacter3 {
+    background-image: url(img/happerbear.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45vh;
+    height: 65vh;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.gamesad {
+    position: absolute;
+    top: 550px;
+}
+
+.readsad {
+    position: absolute;
+    top: 450px;
+
+}
+
+.comicsad {
+    position: absolute;
+    top: 350px;
+}
+
+.gameangry {
+    position: absolute;
+    top: 550px;
+}
+
+.readangry {
+    position: absolute;
+    top: 450px;
+
+}
+
+.comicangry {
+    position: absolute;
+    top: 350px;
+}
+
+.game1sad {
+    position: absolute;
+    top: 350px;
+    font-size: 1.5rem;
+}
+
+.game2sad {
+    position: absolute;
+    top: 450px;
+    font-size: 1.5rem;
+}
+
+.game3sad {
+    position: absolute;
+    top: 550px;
+    font-size: 1.5rem;
+}
+
+.game1angry {
+    position: absolute;
+    top: 350px;
+    font-size: 1.5rem;
+}
+
+.game2angry {
+    position: absolute;
+    top: 450px;
+    font-size: 1.5rem;
+}
+
+.game3angry {
+    position: absolute;
+    top: 550px;
+    font-size: 1.5rem;
+}
+
+.angryflower, .angrytic {
+    background-color: #D1D7F0;
+    width: 100vw;
+    min-height: 150vh;
+    position: absolute;
+    top: 0;
+}
+
+
+section {
+    margin-top: 20%;
+}
+
+.sadflower, .sadtic {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.happyflower, .happytic {
+    background-color: #FD9659;
+    width: 100vw;
+    min-height: 130vh;
+    position: absolute;
+    top: 0;
+}
