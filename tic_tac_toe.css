@@ -1,3 +1,12 @@
+@import url("https://use.typekit.net/xru3xio.css");
+
+body {
+    font-family: marvin-round, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+  
 :root{
     --primary: #f3b54a;
     --secondary:#6e7889;
@@ -16,8 +25,9 @@ a:hover{
 }
 
 .bodyy {
+    
     font-size: 1.5rem;
-    color: var(--dark);
+    color: var(--light);
     background-color: var(--light);
 
     text-align: center;
@@ -138,7 +148,7 @@ main section{
     font-style: normal;
 
     padding-bottom: 2vw;
-    font-size: 9vw;
+    font-size: 8vw;
 
     animation: appear 0.2s ease forwards;
  }
