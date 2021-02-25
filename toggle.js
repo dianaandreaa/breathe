@@ -44,7 +44,15 @@ function openRead() {
     console.log("openRead");
     document.querySelector(".happychoice").classList.add("hidden");
     document.querySelector(".happyread").classList.remove("hidden");
+    
+    document.querySelector(".gobackhappy5").addEventListener("click", goBackhappy5);
 }
+
+function goBackhappy5() {
+    console.log("goBackhappy5");
+    document.querySelector(".happyread").classList.add("hidden");
+    document.querySelector(".happychoice").classList.remove("hidden");
+    }
 
 function openComic() {
     console.log("openComic");
@@ -77,7 +85,13 @@ function goBack3() {
 function loadTic() {
     document.querySelector(".happygame").classList.add("hidden");
     document.querySelector(".happytic").classList.remove("hidden");
-    
+    document.querySelector(".gobackhappy7").addEventListener("click", goBackhappy7);
+}
+
+function goBackhappy7() {
+    console.log("goBackhappy7");
+    document.querySelector(".happytic").classList.add("hidden");
+    document.querySelector(".happygame").classList.remove("hidden");
     }
 
 function loadFlower() {
@@ -85,7 +99,14 @@ function loadFlower() {
     document.querySelector(".happygame").classList.add("hidden");
     document.querySelector(".happyflower").classList.remove("hidden");
 
+    document.querySelector(".gobackhappy6").addEventListener("click", goBackhappy6);
 }
+
+function goBackhappy6() {
+    console.log("goBackhappy6");
+    document.querySelector(".happyflower").classList.add("hidden");
+    document.querySelector(".happygame").classList.remove("hidden");
+    }
 
 //open Sad
 
@@ -124,7 +145,14 @@ function openReadsad() {
     console.log("openComicsad");
     document.querySelector(".sadchoice").classList.add("hidden");
     document.querySelector(".sadread").classList.remove("hidden");
+    document.querySelector(".gobacksad5").addEventListener("click", goBacksad5);
 }
+
+function goBacksad5() {
+    console.log("goBacksad5");
+    document.querySelector(".sadread").classList.add("hidden");
+    document.querySelector(".sadchoice").classList.remove("hidden");
+    }
 
 function openComicsad() {
     console.log("openComicsad");
@@ -159,14 +187,26 @@ function goBacksad3() {
 function loadTicsad() {
     document.querySelector(".sadgame").classList.add("hidden");
     document.querySelector(".sadtic").classList.remove("hidden");
-
+    document.querySelector(".gobacksad7").addEventListener("click", goBacksad7);
 }
+
+function goBacksad7() {
+    console.log("goBacksad7");
+    document.querySelector(".sadtic").classList.add("hidden");
+    document.querySelector(".sadgame").classList.remove("hidden");
+    }
 
 function loadFlowersad() {
     document.querySelector(".sadgame").classList.add("hidden");
     document.querySelector(".sadflower").classList.remove("hidden");
-
+    document.querySelector(".gobacksad6").addEventListener("click", goBacksad6);
 }
+
+function goBacksad6() {
+    console.log("goBacksad6");
+    document.querySelector(".sadflower").classList.add("hidden");
+    document.querySelector(".sadgame").classList.remove("hidden");
+    }
 
 
 //open Angry
@@ -207,7 +247,14 @@ function openReadangry() {
     console.log("openReadangry");
     document.querySelector(".angrychoice").classList.add("hidden");
     document.querySelector(".angryread").classList.remove("hidden");
+    document.querySelector(".gobackangry5").addEventListener("click", goBackangry5);
 }
+
+function goBackangry5() {
+    console.log("goBackangry5");
+    document.querySelector(".angryread").classList.add("hidden");
+    document.querySelector(".angrychoice").classList.remove("hidden");
+    }
 
 function openComicangry() {
     console.log("openComicangry");
@@ -242,10 +289,22 @@ document.querySelector(".angrychoice").classList.remove("hidden");
 function loadTicangry() {
     document.querySelector(".angrygame").classList.add("hidden");
     document.querySelector(".angrytic").classList.remove("hidden");
-    
+    document.querySelector(".gobackangry7").addEventListener("click", goBackangry7);
+}
+
+function goBackangry7() {
+    console.log("goBackangry7");
+    document.querySelector(".angrytic").classList.add("hidden");
+    document.querySelector(".angrygame").classList.remove("hidden");
     }
 function loadFlowerangry() {
     document.querySelector(".angrygame").classList.add("hidden");
     document.querySelector(".angryflower").classList.remove("hidden");
-
+    document.querySelector(".gobackangry6").addEventListener("click", goBackangry6);
 }
+
+function goBackangry6() {
+    console.log("goBackangry6");
+    document.querySelector(".angryflower").classList.add("hidden");
+    document.querySelector(".angrygame").classList.remove("hidden");
+    }

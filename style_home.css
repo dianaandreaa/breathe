@@ -437,12 +437,12 @@ box-shadow: 4px 5px rgba(153, 153, 153, 0.297);
 display: inline-block;
     }
 
-   .gameangry, .game3sad, .game3, .gamesad, .game3angry {
+   .gameangry, .gamesad {
         top: 600px;
     }
 
-    .goback, .gobacksad,  .gobackangry,
-    .game2, .game2sad, .readsad, .readangry, .game2angry  {
+    .goback, .gobacksad,  .gobackangry, .game3sad, 
+    .game3, .game3angry, .readsad, .readangry  {
         top: 500px;
     }
 
@@ -454,7 +454,10 @@ display: inline-block;
 
      .gobackhappy4, .gobackangry4, .goback3, 
      .gobackangry3, .gobacksad3, .goback2, .gobacksad4, 
-     .gobackangry2, .gobacksad2 {
+     .gobackangry2, .gobacksad2, .gobackhappy5, 
+     .gobackangry5, .gobacksad5, .gobackhappy6, 
+     .gobackangry6, .gobacksad6, .gobackhappy7, 
+     .gobackangry7, .gobacksad7 {
         top: 75px;
         left: -445px;
     }
