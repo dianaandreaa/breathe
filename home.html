@@ -54,10 +54,12 @@
 <button class="orange read">read</button>
 <button class="orange goback2">Go back</button>
    
-<div class="speech">
-    <span>What do you want to do?</span> 
-</div> 
+<div class="speech"> <span>What do you want to do?</span> </div> 
 <div class="happycharacter2"></div></div>
+
+<div class="happyread hidden">
+    <iframe src="database.html?feeling=happy" height="600" width="900"></iframe>
+</div>
 
 <div class="happycomic hidden">
     <button class="orange gobackhappy4">Go back</button>
@@ -98,12 +100,13 @@
     <button class="blue gamesad">game</button>
     <button class="blue comicsad">comic</button>
     <button class="blue readsad">read</button>
-    <button class="blue gobacksad2">Go back</button>
-        
-    <div class="speech">
-        <span>What do you want to do?</span> 
-    </div> 
+    <button class="blue gobacksad2">Go back</button>  
+    <div class="speech"><span>What do you want to do?</span> </div> 
     <div class="sadcharacter2"></div>
+ </div>
+
+    <div class="sadread hidden">
+        <iframe src="database.html?feeling=sad" height="600" width="900"></iframe>
     </div>
 
     <div class="sadgame hidden">
@@ -122,7 +125,6 @@
                </div>
 
                <div class="sadtic hidden">
-                <a href="database.html?feeling=603529cd9fc7b60c00017f8a">See smth</a>
                 <iframe src="tic_tac_toe.html" height="600" width="900" title="tic-tac-toe"></iframe>
                </div>
 
@@ -154,6 +156,10 @@
      <img src="img/bear comic.png" alt="Angry comic">
         </div>
 
+        <div class="angryread hidden">
+            <iframe src="database.html?feeling=angry" height="600" width="900"></iframe>
+        </div>
+
         <div class="angrygame hidden">
             <button class="lavender game1angry">tic-tac-toe</button>
             <button class="lavender game2angry">breadstick</button>
@@ -171,7 +177,6 @@
         </div>
 
         <div class="angrytic hidden"> 
-            <a href="database.html?feeling=angry">See smth</a>
             <iframe src="tic_tac_toe.html" height="600" width="900" title="tic-tac-toe"></iframe>
         </div>
 <script src="ham.js"></script>

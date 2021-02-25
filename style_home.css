@@ -469,7 +469,7 @@ font-family: marvin-round, sans-serif;
     font-size: 1.5rem;
 }
 
-.angryflower, .angrytic, .angrycomic {
+.angryflower, .angrytic, .angrycomic, .angryread {
     background-color: #D1D7F0;
     width: 100vw;
     height: 130vh;
@@ -482,14 +482,14 @@ section {
     margin-top: 20%;
 }
 
-.sadflower, .sadtic {
+.sadflower, .sadtic, .sadread {
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
 }
 
-.happyflower, .happytic, .happycomic {
+.happyflower, .happytic, .happycomic, .happyread {
     background-color: #FD9659;
     width: 100vw;
     min-height: 130vh;
