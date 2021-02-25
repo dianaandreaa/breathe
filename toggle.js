@@ -40,6 +40,12 @@ function goBack2() {
     document.querySelector(".content").classList.remove("hidden");
 }
 
+function openRead() {
+    console.log("openComic");
+    document.querySelector(".happychoice").classList.add("hidden");
+    document.querySelector(".happyread").classList.remove("hidden");
+}
+
 function openComic() {
     console.log("openComic");
     document.querySelector(".happyscreen").classList.add("hidden");
@@ -52,8 +58,6 @@ function goBackhappy4() {
     document.querySelector(".happycomic").classList.add("hidden");
     document.querySelector(".happychoice").classList.remove("hidden");
     }
-
-
     
 function openGame() {
     console.log("openGame");
