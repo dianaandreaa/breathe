@@ -11,9 +11,6 @@ body {
     text-align: center;
     
 }
-button {
-    cursor: pointer;
-}
 
 .hidden {
     display: none;
@@ -41,7 +38,7 @@ button {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     overflow: hidden;
     transform: translateY(-100%);
     transition: transform 0.2s ease;
@@ -167,16 +164,17 @@ position: absolute;
 .happyscreen {
     background-color: #FD9659;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 0;
 }
 
 .speech {
-    width: 400px;
+    width: 550px;
 position: absolute;
 top: 200px;
-left: 400px;
+left: 5%;
+margin-left: 250px;
 font-size: 2.5rem;
 }
 
@@ -190,59 +188,14 @@ font-size: 2.5rem;
     margin-top: 200px;
 }
 
-button {
-user-select: none;
-width: 159px;
-height: 60px;
-border-radius: 25px;
-border: 0.1px solid rgba(234, 235, 239, 0.79);
-font-family: marvin-round, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    font-size: 2rem;
-    position: absolute;
-    text-align: center; 
-}
-
 .orange {
     background-color: #FD9659;
-}
-
-.yes, .yessad, .yesangry {
-    position: absolute;
-    top: 450px;
-    font-size: 2.5rem;
-}
-
-.goback, .gobackangry, .gobacksad {
-    position: absolute;
-    top: 550px;
-    font-size: 1.5rem;
-}
-
-.goback2, .gobackangry2, .gobacksad2  {
-    position: absolute;
-    top: 650px;
-    font-size: 1.5rem;
-}
-
-.goback3, .gobackangry3, .gobacksad3  {
-    position: absolute;
-    top: 650px;
-    font-size: 1.5rem;
-}
-
-.gobackhappy4, .gobackangry4, .gobacksad4  {
-    position: absolute;
-    top: 650px;
-    font-size: 1.5rem;
 }
 
 .happychoice {
     background-color: #FD9659;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 0;
 }
@@ -276,27 +229,9 @@ font-family: marvin-round, sans-serif;
 .happygame {
     background-color: #FD9659;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     position: absolute;
     top: 0;
-}
-
-.game1 {
-    position: absolute;
-    top: 350px;
-    font-size: 1.5rem;
-}
-
-.game2 {
-    position: absolute;
-    top: 450px;
-    font-size: 1.5rem;
-}
-
-.game3 {
-    position: absolute;
-    top: 550px;
-    font-size: 1.5rem;
 }
 
 .happycharacter3 {
@@ -344,13 +279,13 @@ font-family: marvin-round, sans-serif;
 }
 
 .lavender {
-    background-color: #D1D7F0;
+    background-color: #bac5f2;
 }
 
 .angryscreen {
-    background-color: #D1D7F0;
+    background-color: #bac5f2;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 0;
 }
@@ -366,9 +301,9 @@ font-family: marvin-round, sans-serif;
 }
 
 .angrychoice {
-    background-color:  #D1D7F0;
+    background-color:  #bac5f2;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 0;
 }
@@ -384,9 +319,9 @@ font-family: marvin-round, sans-serif;
 }
 
 .angrygame {
-    background-color: #D1D7F0;
+    background-color: #bac5f2;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 0;
 }
@@ -401,76 +336,9 @@ font-family: marvin-round, sans-serif;
     margin-top: 200px;
 }
 
-.gamesad {
-    position: absolute;
-    top: 550px;
-}
-
-.readsad {
-    position: absolute;
-    top: 450px;
-
-}
-
-.comicsad {
-    position: absolute;
-    top: 350px;
-}
-
-.gameangry {
-    position: absolute;
-    top: 550px;
-}
-
-.readangry {
-    position: absolute;
-    top: 450px;
-
-}
-
-.comicangry {
-    position: absolute;
-    top: 350px;
-}
-
-.game1sad {
-    position: absolute;
-    top: 350px;
-    font-size: 1.5rem;
-}
-
-.game2sad {
-    position: absolute;
-    top: 450px;
-    font-size: 1.5rem;
-}
-
-.game3sad {
-    position: absolute;
-    top: 550px;
-    font-size: 1.5rem;
-}
-
-.game1angry {
-    position: absolute;
-    top: 350px;
-    font-size: 1.5rem;
-}
-
-.game2angry {
-    position: absolute;
-    top: 450px;
-    font-size: 1.5rem;
-}
-
-.game3angry {
-    position: absolute;
-    top: 550px;
-    font-size: 1.5rem;
-}
 
 .angryflower, .angrytic, .angrycomic, .angryread {
-    background-color: #D1D7F0;
+    background-color: #bac5f2;
     width: 100vw;
     height: 130vh;
     position: absolute;
@@ -482,9 +350,9 @@ section {
     margin-top: 20%;
 }
 
-.sadflower, .sadtic, .sadread {
+.sadflower, .sadtic, .sadcomic, .sadread {
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 0;
 }
@@ -505,3 +373,50 @@ iframe {
 img { margin-top: 200px;
     width: 100%;
 }
+
+
+button {
+    user-select: none;
+    border-radius: 25px;
+    border: 0.1px solid rgba(234, 235, 239, 0.79);
+    font-family: marvin-round, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        text-align: center;
+        cursor: pointer; 
+        padding: 0 20px 5px 20px;
+        left: 5%;
+margin-left: 450px;
+height: 4rem;
+    }
+
+    .goback, .gobackangry, .gameangry, 
+    .game3sad, .gobacksad, .game3, .gamesad, 
+    .game3angry {
+        top: 600px;
+    }
+    
+    .goback2, .gobackangry2, .gobacksad2, 
+    .goback3, .gobackangry3, .gobacksad3,
+    .gobackhappy4, .gobackangry4, .gobacksad4   {
+        top: 700px;
+    }
+
+    .yes, .yessad, .yesangry, .game2, 
+    .game2sad, .readsad, .readangry,
+    .game2angry  {
+        top: 500px;
+    }
+
+    .game1, .comicsad, .comicangry, .game1sad, 
+    .game1angry {
+        top: 400px;
+    }
+
+
+    .gobackhappy4, .gobackangry4, .gobacksad4 {
+        bottom: 0;
+    }

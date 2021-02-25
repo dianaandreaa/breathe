@@ -116,6 +116,25 @@ function goBacksad2() {
     document.querySelector(".content").classList.remove("hidden");
 }
 
+function openReadsad() {
+    console.log("openComicsad");
+    document.querySelector(".sadchoice").classList.add("hidden");
+    document.querySelector(".sadread").classList.remove("hidden");
+}
+
+function openComicsad() {
+    console.log("openComicsad");
+    document.querySelector(".sadchoice").classList.add("hidden");
+    document.querySelector(".sadcomic").classList.remove("hidden");
+    document.querySelector(".gobacksad4").addEventListener("click", goBacksad4);
+}
+
+function goBacksad4() {
+    console.log("goBacksad4");
+    document.querySelector(".sadcomic").classList.add("hidden");
+    document.querySelector(".sadchoice").classList.remove("hidden");
+    }
+
 function openGamesad() {
     console.log("openGamesad");
     document.querySelector(".sadchoice").classList.add("hidden");

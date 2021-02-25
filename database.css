@@ -1,11 +1,11 @@
 .sad {
-    background-color: hotpink;
+    background-color: transparent;
 }
 
 .happy {
-    background-color: lightblue;
+    background-color: #FD9659;
 }
 
 .angry {
-    background-color: purple;
+    background-color: #bac5f2;
 }
