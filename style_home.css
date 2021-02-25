@@ -12,6 +12,11 @@ body {
     user-select: none;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .hidden {
     display: none;
 }
@@ -418,6 +423,7 @@ img { margin-top: 200px;
 
 
 button {
+    outline:none;
     user-select: none;
     border-radius: 25px;
     border: 0.1px solid rgba(234, 235, 239, 0.79);
