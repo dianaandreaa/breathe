@@ -45,9 +45,21 @@
 
 const urlParams = new URLSearchParams(window.location.search);
 //in the url grab id and store them under id
-const id = urlParams.get("feeling");
-console.log(id);
+const feeling = urlParams.get("feeling");
+document.body.classList.add(feeling)
+let id;
 
+if (feeling == "angry") {
+    id = "60352a0e9fc7b60c00017f91"
+}
+
+if (feeling == "sad") {
+    id = "603529cd9fc7b60c00017f8a"
+}
+
+if (feeling == "happy") {
+    id = "60352a2d9fc7b60c00017f9a"
+}
 const url =
   "https://semester02t7-00e2.restdb.io/rest/breathe-advice/"+id;
 
