@@ -94,7 +94,8 @@ function showEmotion(emotion) {
   document.querySelector(".advice1").textContent = emotion.advice_1;
   document.querySelector(".advice2").textContent = emotion.advice_2;
   document.querySelector(".advice3").textContent = emotion.advice_3;
-  document.querySelector("img").src = emotion.img;
+  document.querySelector("img").src =
+    "https://semester02t7-00e2.restdb.io/media/" + emotion.img;
 }
 
 // TEXT: category description img

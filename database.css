@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/xru3xio.css");
+
 .sad {
     background-color: transparent;
 }
@@ -8,4 +10,20 @@
 
 .angry {
     background-color: #bac5f2;
+}
+
+body {
+    margin-bottom: 0;
+    padding: 0;
+    font-family: marvin-round, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    user-select: none;
+}
+
+img {
+    width: 40%;
 }
