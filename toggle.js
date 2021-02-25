@@ -41,7 +41,7 @@ function goBack2() {
 }
 
 function openRead() {
-    console.log("openComic");
+    console.log("openRead");
     document.querySelector(".happychoice").classList.add("hidden");
     document.querySelector(".happyread").classList.remove("hidden");
 }
@@ -201,6 +201,12 @@ function goBackangry2() {
 console.log("goBackangry2");
 document.querySelector(".angrychoice").classList.add("hidden");
 document.querySelector(".content").classList.remove("hidden");
+}
+
+function openReadangry() {
+    console.log("openReadangry");
+    document.querySelector(".angrychoice").classList.add("hidden");
+    document.querySelector(".angryread").classList.remove("hidden");
 }
 
 function openComicangry() {
