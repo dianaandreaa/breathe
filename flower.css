@@ -174,3 +174,11 @@ main {
     transform: translate(35px, 50px);
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .text1, .text2 {
+     font-size: 2rem;
+     left: 35%;
+     margin-top:9vh;
+ }
+}
