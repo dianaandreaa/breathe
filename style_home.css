@@ -76,6 +76,10 @@ a {
     display: inline-flex;
 }
 
+.ciiircles {
+    z-index: 3;
+}
+
 .character {
    background-color: #A9CDF1;
    width: 25vw;
@@ -115,7 +119,7 @@ height: 60vh;
 
 .emotion {
     position: absolute;
-    bottom: 5vh;
+    margin-top: 45vh;
     margin-left: 5%;
     user-select: none;
 }
@@ -387,9 +391,10 @@ font-size: 2.5rem;
 .angryflower, .angrytic, .angrycomic, .angryread {
     background-color: #bac5f2;
     width: 100vw;
-    height: 130vh;
+    min-height: 100vh;
     position: absolute;
     top: 0;
+    background-size: cover;
 }
 
 
@@ -399,7 +404,7 @@ section {
 
 .sadflower, .sadtic, .sadcomic, .sadread {
     width: 100vw;
-    height: 120vh;
+    min-height: 100vh;
     position: absolute;
     top: 0;
 }
@@ -407,9 +412,10 @@ section {
 .happyflower, .happytic, .happycomic, .happyread {
     background-color: #FD9659;
     width: 100vw;
-    min-height: 130vh;
+    min-height: 100vh;
     position: absolute;
     top: 0;
+    background-size: cover;
 }
 
 iframe {
